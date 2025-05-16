@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Fetch API Data</title>
+    <link rel="stylesheet" href="api.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Get a Random Joke</h1>
+        <button id="fetchJokeBtn">Tell Me a Joke!</button>
+        <div id="joke-container" class="hidden">
+            <h3>Here's your joke:</h3>
+            <p id="joke-setup"></p>
+            <p id="joke-delivery"></p>
+        </div>
+        <div id="error-message" class="hidden error">
+            <p>Failed to fetch a joke. Please try again later.</p>
+        </div>
+    </div>
+    <script src="api.js"></script>
+</body>
+</html>
